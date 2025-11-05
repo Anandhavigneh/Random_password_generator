@@ -2,8 +2,8 @@ print(" Welcome to Random Password generator ")
 import random
 
 random_char="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()?"
-random_pass=int(input("place enter the number of password generate:"))
-paslen=int(input("place enter the length of password:"))
+random_pass=int(input("place enter the number of password generate:\n"))
+paslen=int(input("place enter the length of password:\n"))
 
 for x in range(random_pass):
     password=""
